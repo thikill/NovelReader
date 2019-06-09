@@ -1,6 +1,4 @@
 apply plugin: 'com.android.application'
-apply plugin: 'kotlin-android-extensions'
-apply plugin: 'kotlin-android'
 apply plugin: 'org.greenrobot.greendao'
 
 android {
@@ -38,7 +36,6 @@ repositories {
     maven {
         url 'https://dl.bintray.com/qichuan/maven/'
     }
-    mavenCentral()
 }
 
 dependencies {
@@ -80,11 +77,5 @@ dependencies {
     releaseImplementation 'com.squareup.leakcanary:leakcanary-android-no-op:1.5.4'
     debugImplementation 'com.squareup.leakcanary:leakcanary-android:1.5.4'
 
-    // Database
-    implementation 'android.arch.persistence:db:1.0.0'
-    implementation 'com.github.inorichi.storio:storio-common:8be19de@aar'
-    implementation 'com.github.inorichi.storio:storio-sqlite:8be19de@aar'
-    implementation 'io.requery:sqlite-android:3.25.2'
-    implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk7:$kotlin_version"
 
 }
