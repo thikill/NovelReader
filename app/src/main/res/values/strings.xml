@@ -1,203 +1,205 @@
 <resources>
-    <string name="app_name">IReader</string>
-    <string name="nb.title.app">iReader</string>
+        <string name="app_name">IReader</string>
+        <string name="nb.title.app">iReader</string>
 
-    <!--string_array-->
-    <string-array name="nb_fragment_title">
-        <item>@string/nb.fragment.title.bookshelf</item>
-        <item>@string/nb.fragment.title.community</item>
-        <item>@string/nb.fragment.title.find</item>
-    </string-array>
+        <!--string_array-->
+        <string-array name="nb_fragment_title">
+             <item>@string/nb.fragment.title.category</item>
+            <item>@string/nb.fragment.title.bookshelf</item>
+            <item>@string/nb.fragment.title.community</item>
+            <item>@string/nb.fragment.title.find</item>
+        </string-array>
 
-    <string-array name="nb_fragment_section">
-        <item>@string/nb.fragment.community.comment</item>
-        <item>@string/nb.fragment.community.discussion</item>
-        <item>@string/nb.fragment.community.help</item>
-        <item>@string/nb.fragment.community.girl</item>
-        <item>@string/nb.fragment.community.compose</item>
-    </string-array>
+        <string-array name="nb_fragment_section">
+            <item>@string/nb.fragment.community.comment</item>
+            <item>@string/nb.fragment.community.discussion</item>
+            <item>@string/nb.fragment.community.help</item>
+            <item>@string/nb.fragment.community.girl</item>
+            <item>@string/nb.fragment.community.compose</item>
+        </string-array>
 
-    <!--榜单分类-->
-    <string-array name="nb_fragment_bill_book">
-        <item>周榜</item>
-        <item>月榜</item>
-        <item>总榜</item>
-    </string-array>
-    
-    <!--CollBook的长按点击-->
-    <string-array name="nb_menu_net_book">
-        <item>@string/nb.menu.action.top</item>
-        <item>@string/nb.menu.action.cache</item>
-        <item>@string/nb.menu.action.delete</item>
-        <item>@string/nb.menu.action.batch_manage</item>
-    </string-array>
-    
-    <string-array name="nb_menu_local_book">
-        <item>@string/nb.menu.action.top</item>
-        <item>@string/nb.menu.action.delete</item>
-        <item>@string/nb.menu.action.batch_manage</item>
-    </string-array>
-    
-    <!--常用-->
-    <string name="nb.common.tip">提示</string>
-    <string name="nb.common.sure">确定</string>
-    <string name="nb.common.cancel">取消</string>
-    
-    <!--网络相关-->
-    
-    <string name="nb.net.error_tip">似乎没有网络哦</string>
-    
-    <!--fragment_title:主页的名字-->
-    <string name="nb.fragment.title.bookshelf">书架</string>
-    <string name="nb.fragment.title.community">社区</string>
-    <string name="nb.fragment.title.find">发现</string>
+        <!--List classification -->
+        <string-array name="nb_fragment_bill_book">
+            <item>danh sách tuần</item>
+            <item>danh sách tháng</item>
+            <item>tổng danh sách</item>
+        </string-array>
+        
+        <!--CollBook long press click -->
+        <string-array name="nb_menu_net_book">
+            <item>@string/nb.menu.action.top</item>
+            <item>@string/nb.menu.action.cache</item>
+            <item>@string/nb.menu.action.delete</item>
+            <item>@string/nb.menu.action.batch_manage</item>
+        </string-array>
+        
+        <string-array name="nb_menu_local_book">
+            <item>@string/nb.menu.action.top</item>
+            <item>@string/nb.menu.action.delete</item>
+            <item>@string/nb.menu.action.batch_manage</item>
+        </string-array>
+        
+        <!--Common -->
+        <string name="nb.common.tip">mẹo </string>
+        <string name="nb.common.sure">OK </string>
+        <string name="nb.common.cancel">Hủy </string>
+        
+        <!--Network related-->
+        
+        <string name="nb.net.error_tip">It seems that there is no network </string>
+        
+        <!--fragment_title: The name of the homepage -->
+    <string name="nb.fragment.title.category">Category </string>
+        <string name="nb.fragment.title.bookshelf">shelf </string>
+        <string name="nb.fragment.title.community">Community</string>
+        <string name="nb.fragment.title.find">discover </string>
 
-    <!--fragment-->
-    <string name="nb.fragment.community.comment">综合讨论区</string>
-    <string name="nb.fragment.community.discussion">书评区</string>
-    <string name="nb.fragment.community.help">书荒帮助区</string>
-    <string name="nb.fragment.community.girl">女生区</string>
-    <string name="nb.fragment.community.compose">原创区</string>
-    
-    <!--fragment 主题书单-->
-    <string name="nb.fragment.book_list.hot">本周最热</string>
-    <string name="nb.fragment.book_list.newest">最新发布</string>
-    <string name="nb.fragment.book_list.collect">最多收藏</string>
-    
-    <string name="nb.fragment.book_list.message">共%1$d本书 |&#160; %2$d人收藏</string>
-    
-    <!--评论相关-->
-    <string name="nb.comment.floor">%1$d楼&#160;</string>
-    <string name="nb.comment.like_count">❤%1$d次同感</string>
-    <string name="nb.comment.best_comment">仰望神评论</string>
-    <string name="nb.comment.comment_count">共%1$d条评论</string>
-    <string name="nb.comment.reply_floor">(%1$d楼)</string>
-    <string name="nb.comment.reply_nickname">回复 %1$s</string>
-    <string name="nb.comment.empty_comment">暂无评论</string>
-    
-    <!--书评区相关-->
-    <string name="nb.review.book_type">[%1$s]</string>
-    <string name="nb.review.recommend">%1$d 人推荐</string>
-    <string name="nb.review.helpful">有用</string>
-    <string name="nb.review.unhelpful">无用</string>
-    <string name="nb.review.book_score">给书评打分</string>
-    <string name="nb.review.master_score">楼主打分：</string>
-    
-    
-    <!--find-->
-    <string name="nb.fragment.find.top">排行榜</string>
-    <string name="nb.fragment.find.topic">主题书单</string>
-    <string name="nb.fragment.find.sort">分类</string>
-    <string name="nb.fragment.find.listen">有声小说</string>
+        <!--fragment-->
+        <string name="nb.fragment.community.comment">General Discussion Board</string>
+        <string name="nb.fragment.community.discussion">Book review area </string>
+        <string name="nb.fragment.community.help">Book Help Area </string>
+        <string name="nb.fragment.community.girl">girl area </string>
+        <string name="nb.fragment.community.compose">Original area </string>
+        
+        <!--fragment theme book -->
+        <string name="nb.fragment.book_list.hot">This week is the hottest</string>
+        <string name="nb.fragment.book_list.newest">Latest release</string>
+        <string name="nb.fragment.book_list.collect">Maximum collection </string>
+        
+        <string name="nb.fragment.book_list.message">total %1$d book | %2$d people collection </string>
+        
+        <!--Comment related-->
+        <string name="nb.comment.floor">%1$d floor </string>
+        <string name="nb.comment.like_count">❤%1$d times sympathy</string>
+        <string name="nb.comment.best_comment">Looking up to God's comments</string>
+        <string name="nb.comment.comment_count">Total %1$d comments</string>
+        <string name="nb.comment.reply_floor">(%1$d floor) </string>
+        <string name="nb.comment.reply_nickname">Reply to %1$s</string>
+        <string name="nb.comment.empty_comment">No comment </string>
+        
+        <!--Book review area related -->
+        <string name="nb.review.book_type">[%1$s]</string>
+        <string name="nb.review.recommend">%1$d person recommended </string>
+        <string name="nb.review.helpful"> useful</string>
+        <string name="nb.review.unhelpful">Useless </string>
+        <string name="nb.review.book_score">Score the book review</string>
+        <string name="nb.review.master_score">The landlord scores: </string>
+        
+        
+        <!--find-->
+        <string name="nb.fragment.find.top"> Leaderboard </string>
+        <string name="nb.fragment.find.topic">topic list </string>
+        <string name="nb.fragment.find.sort">classification </string>
+        <string name="nb.fragment.find.listen">Audiobooks </string>
 
-    <!--dialog-->
-    <string name="nb.dialog.text.introduce">我们会根据您的喜好\n推荐相对应的小说</string>
-    <string name="nb.dialog.text.choose_tip">--请选择你的喜好--</string>
-    <string name="nb.dialog.text.boy_story">男生小说</string>
-    <string name="nb.dialog.text.girl_story">女生小说</string>
-    
-    <!--menu-->
-    <string name="nb.menu.action.search">搜索</string>
-    <string name="nb.menu.action.login">请登录</string>
-    <string name="nb.menu.action.message">我的消息</string>
-    <string name="nb.menu.action.download">下载列表</string>
-    <string name="nb.menu.action.sync">同步书架</string>
-    <string name="nb.menu.action.scan">扫描本地书籍</string>
-    <string name="nb.menu.action.transfer">WIFI传书</string>
-    <string name="nb.menu.action.feedback">意见反馈</string>
-    <string name="nb.menu.action.night_mode">夜间模式</string>
-    <string name="nb.menu.action.setting">设置</string>
-    
-    <string name="nb.menu.action.top">置顶</string>
-    <string name="nb.menu.action.cache">缓存</string>
-    <string name="nb.menu.action.delete">删除</string>
-    <string name="nb.menu.action.batch_manage">批量管理</string>
-    
+        <!--dialog-->
+        <string name="nb.dialog.text.introduce">We will recommend the corresponding novel according to your preferences.</string>
+        <string name="nb.dialog.text.choose_tip">--Please choose your preference --</string>
+        <string name="nb.dialog.text.boy_story">boy novels</string>
+        <string name="nb.dialog.text.girl_story">girl novel </string>
+        
+        <!--menu-->
+        <string name="nb.menu.action.search">Search </string>
+        <string name="nb.menu.action.login">Please login </string>
+        <string name="nb.menu.action.message">My message </string>
+        <string name="nb.menu.action.download">Download list </string>
+        <string name="nb.menu.action.sync">sync bookshelf</string>
+        <string name="nb.menu.action.scan">Scan local books</string>
+        <string name="nb.menu.action.transfer">WIFI biography </string>
+        <string name="nb.menu.action.feedback">Feedback</string>
+        <string name="nb.menu.action.night_mode"> night mode </string>
+        <string name="nb.menu.action.setting">Settings </string>
+        
+        <string name="nb.menu.action.top">Top </string>
+        <string name="nb.menu.action.cache">cache </string>
+        <string name="nb.menu.action.delete">delete </string>
+        <string name="nb.menu.action.batch_manage">Batch management </string>
+
     <!--SplashActivity-->
-    <string name="nb.splash.skip">跳过</string>
+        <string name="nb.splash.skip">skip </string>
 
-    <!--user:用户的信息-->
-    <string name="nb.user.lv">&#160;lv.%1$d</string>
-    <!--book:书籍的信息-->
-    <string name="nb.book.type">[%1$s]</string>
-    <string name="nb.book.recommend">%1$d 人推荐</string>
-    <string name="nb.book.message">%1$d人在追 |&#160; %2$s%%读者留存</string>
-    <string name="nb.book.word">|&#160;%1$d&#160;万字</string>
-    <!--sort:每类的书-->
-    <string name="nb.sort.book_count">%1$d 本</string>
-    
-    <!--tag: 标签-->
-    <string name="nb.tag.all">全部</string>
-    <string name="nb.tag.sex">性别</string>
-    <string name="nb.tag.boy">男生</string>
-    <string name="nb.tag.girl">女生</string>
-    
-    
-    <!--book_detail : -->
-    <string name="nb.book_detail.hot_comment">热门书评</string>
-    <string name="nb.book_detail.community">%1$s的社区</string>
-    <string name="nb.book_detail.posts_count">共有%1$d个帖子</string>
-    <string name="nb.book_detail.recommend_book_list">推荐书单</string>
-    <string name="nb.book_detail.chase_update">追更</string>
-    <string name="nb.book_detail.give_up">放弃</string>
-    <string name="nb.book_detail.start_read">开始阅读</string>
-    
-    <!--DownloadTask:书籍下载-->
-    <string name="nb.download.add_succeed">成功添加到下载列表</string>
-    <string name="nb.download.exist">该任务已存在</string>
-    <string name="nb.download.load_all">已缓存全部章节</string>
-    <string name="nb.download.progress">%1$d/%2$d</string>
-    <string name="nb.download.chapter_scope">(%1$d-%2$d章)</string>
-    
-    <string name="nb.download.start">继续</string>
-    <string name="nb.download.pause">暂停</string>
-    <string name="nb.download.wait">等待</string>
-    <string name="nb.download.error">错误</string>
-    <string name="nb.download.finish">完成</string>
-    
-    <string name="nb.download.loading">下载中</string>
-    <string name="nb.download.waiting">等待中</string>
-    <string name="nb.download.pausing">暂停中</string>
-    <string name="nb.download.complete">已完成</string>
-    <string name="nb.download.source_error">资源或网络错误</string>
-    
-    <!--mode-->
-    <string name="nb.mode.night">夜间</string>
-    <string name="nb.mode.morning">日间</string>
-    
-    <!--read-->
-    <string name="nb.read.community">社区</string>
-    <string name="nb.read.brief">简介</string>
-    <string name="nb.read.setting">设置</string>
-    <string name="nb.read.download">缓存</string>'
-    <string name="nb.read.category">目录</string>
-    <string name="nb.read.no_chapter">第 %1$d 章(%2$d)</string>
-    
-    <!--file system-->
-    <string name="nb.file.sub_count">%1$d 项</string>
-    <string name="nb.file.path">存储卡:%1$s</string>
-    <string name="nb.file.add_shelf">加入书架</string>
-    <string name="nb.file.add_shelves">加入书架(%1$d)</string>
-    <string name="nb.file.add_succeed">成功添加%1$d本书</string>
-    
-    <!--search-->
-    <string name="nb.search.book.brief">%1$d人在追 | %2$s读者留存 | %3$s著</string>
+        <!--user: User's information -->
+        <string name="nb.user.lv"> lv.%1$d</string>
+        <!--book: information about books -->
+        <string name="nb.book.type">[%1$s]</string>
+        <string name="nb.book.recommend">%1$d person recommended </string>
+        <string name="nb.book.message">%1$d people are chasing | %2$s%% readers are kept </string>
+        <string name="nb.book.word">| %1$d 4 words </string>
+        <!--sort: each type of book -->
+        <string name="nb.sort.book_count">%1$d this </string>
+        
+        <!--tag: tag -->
+        <string name="nb.tag.all">all </string>
+        <string name="nb.tag.sex">gender </string>
+        <string name="nb.tag.boy">boy </string>
+        <string name="nb.tag.girl">girl </string>
+        
+        
+        <!--book_detail : -->
+        <string name="nb.book_detail.hot_comment">Popular Book Review </string>
+        <string name="nb.book_detail.community">%1$s community</string>
+        <string name="nb.book_detail.posts_count">Total %1$d posts</string>
+        <string name="nb.book_detail.recommend_book_list">Recommended list </string>
+        <string name="nb.book_detail.chase_update">Chasing </string>
+        <string name="nb.book_detail.give_up">Abandon </string>
+        <string name="nb.book_detail.start_read">Start reading</string>
+        
+        <!--DownloadTask: Book Download -->
+        <string name="nb.download.add_succeed"> successfully added to the download list </string>
+        <string name="nb.download.exist">This task already exists </string>
+        <string name="nb.download.load_all">All chapters have been cached </string>
+        <string name="nb.download.progress">%1$d/%2$d</string>
+        <string name="nb.download.chapter_scope"> (%1$d-%2$d chapter) </string>
+        
+        <string name="nb.download.start">Continue </string>
+        <string name="nb.download.pause">pause </string>
+        <string name="nb.download.wait">wait </string>
+        <string name="nb.download.error">error </string>
+        <string name="nb.download.finish">Complete </string>
+        
+        <string name="nb.download.loading">Downloading </string>
+        <string name="nb.download.waiting">waiting </string>
+        <string name="nb.download.pausing">suspended </string>
+        <string name="nb.download.complete"> is completed </string>
+        <string name="nb.download.source_error">Resource or network error </string>
+        
+        <!--mode-->
+        <string name="nb.mode.night">night </string>
+        <string name="nb.mode.morning">day </string>
+        
+        <!--read-->
+        <string name="nb.read.community">Community</string>
+        <string name="nb.read.brief">Introduction</string>
+        <string name="nb.read.setting">Settings </string>
+        <string name="nb.read.download">cache </string>'
+        <string name="nb.read.category">directory </string>
+        <string name="nb.read.no_chapter"> Chapter %1$d (%2$d) </string>
+        
+        <!--file system-->
+        <string name="nb.file.sub_count">%1$d item </string>
+        <string name="nb.file.path">memory card: %1$s</string>
+        <string name="nb.file.add_shelf"> join the bookshelf</string>
+        <string name="nb.file.add_shelves"> join the bookshelf (%1$d) </string>
+        <string name="nb.file.add_succeed">Successfully added %1$d book </string>
+        
+        <!--search-->
+        <string name="nb.search.book.brief">%1$d people are chasing | %2$s reader retention | %3$s </string>
 
-    <!--BookShelf-->
-    <string name="nb.bookshelf.book_not_exist">文件不存在或者内容为空,是否删除?</string>
+        <!--BookShelf-->
+        <string name="nb.bookshelf.book_not_exist">The file does not exist or the content is empty, is it deleted?</string>
 
-    <!--OpenCC-->
-    <string-array name="conversion_type_array">
-        <item>不轉換</item>
-        <item>臺灣正體到簡體(大陸常用詞彙)</item>
-        <item>簡體到香港繁體</item>
-        <item>簡體到繁體</item>
-        <item>簡體到臺灣正體</item>
-        <item>簡體到繁體(臺灣常用詞彙)</item>
-        <item>繁體到香港繁體</item>
-        <item>繁體到簡體</item>
-        <item>繁體臺灣正體</item>
-        <item>臺灣正體到簡體</item>
-        <item>香港繁體到簡體</item>
-    </string-array>
+        <!--OpenCC-->
+        <string-array name="conversion_type_array">
+            <item> does not convert </item>
+            <item>Taiwan Orthodox to Simplified (Chinese vocabulary)</item>
+            <item> Simplified to Hong Kong Traditional </item>
+            <item>Simplified to Traditional </item>
+            <item> Simplified to Taiwanese body </item>
+            <item> Simplified to Traditional (Taiwanese common vocabulary) </item>
+            <item> Traditional to Hong Kong Traditional </item>
+            <item> Traditional to Simplified </item>
+            <item>Traditional Taiwanese body </item>
+            <item>Taiwan to Simplified </item>
+            <item>Hong Kong Traditional to Simplified </item>
+        </string-array>
 </resources>

@@ -15,6 +15,7 @@ import android.os.Handler;
 import android.os.Message;
 import android.os.PowerManager;
 import android.provider.Settings;
+import android.support.annotation.Nullable;
 import android.support.design.widget.AppBarLayout;
 import android.support.v4.content.ContextCompat;
 import android.support.v4.widget.DrawerLayout;
@@ -637,6 +638,11 @@ public class ReadActivity extends BaseMVPActivity<ReadContract.Presenter>
             // 从网络中获取目录
             mPresenter.loadCategory(mBookId);
         }
+    }
+
+    @Override
+    protected void onCreate(@Nullable Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
     }
 
     /***************************view************************************/
